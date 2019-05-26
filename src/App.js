@@ -1,9 +1,7 @@
 import React from 'react';
-import ErrorBoundary from './components/ErrorBoundary';
-import Main from './layout/main/Main';
-import Footer from './layout/footer/Footer';
-import Header from './layout/header/Header';
-import './App.css';
+import Main from './layout/main/main';
+import Footer from './layout/footer/footer';
+import Header from './layout/header/header';
 
 const App = ({children}) => [
 	<Header key="header" />,

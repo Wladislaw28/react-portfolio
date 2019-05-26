@@ -9,9 +9,10 @@ class Header extends React.Component{
 					<h1>Logo</h1>
 				</div>
 				<nav>
-					<ul className="nav">
+					<ul className="nav_header">
 						<li><NavLink exact to="/">Home</NavLink></li>
-						<li><NavLink exact to="/about">About</NavLink></li>
+						<li><NavLink to="/about">About</NavLink></li>
+						<li><NavLink to="/components">Components</NavLink></li>
 					</ul>
 				</nav>
 			</div>
