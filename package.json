@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://wladislaw28.github.io/react-model-components",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "eslint-config-airbnb": "^17.1.0",
     "gh-pages": "^2.0.1",

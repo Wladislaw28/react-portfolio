@@ -1,1 +1,28 @@
+body {
+	font-family: 'Muli', sans-serif;
+	height: auto;
+}
+
+*, *:after, *:before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+li {
+	list-style-type: none; /* Убираем маркеры */
+}
+ul {
+	margin-left: 0; /* Отступ слева в браузере IE и Opera */
+	padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.container-fluid{
+	padding: 0;
+}
 
