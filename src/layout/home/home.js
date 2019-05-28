@@ -1,11 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
+import './home.css';
 
 class Home extends React.Component{
 
 	render(){
 		return(
-			<div>
-				<h1>Hello</h1>
+			<div className="home">
+				<div className="container-fluid">
+					<div className="home_info row no-gutters">
+						<div className="col-12">
+
+						</div>
+					</div>
+				</div>
 			</div>
 		)
 	}

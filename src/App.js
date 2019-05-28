@@ -8,7 +8,7 @@ const App = ({children}) => [
 	<Main key="main">
 		{children}
 	</Main>,
-	<Footer key="footer" />
+
 ];
 
 export default App;

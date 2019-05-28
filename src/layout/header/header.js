@@ -9,7 +9,7 @@ class Header extends React.Component{
 				<div className="container-fluid">
 					<div className="row no-gutters menu">
 						<div className="col-md-6 col-lg-3 logo_header">
-							<a href="#">Logo</a>
+							<a className="logo"><NavLink exact to="/">WL28</NavLink></a>
 						</div>
 						<div className="col-md-6 col-lg-9 d-none d-lg-block d-xl-block">
 							<nav className="d-flex flex-row-reverse">

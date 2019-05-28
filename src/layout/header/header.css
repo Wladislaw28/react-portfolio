@@ -2,14 +2,29 @@
 	padding: 0;
 }
 .menu{
-	height: 100px;
-	background: rgba(0, 0, 0, 0.4);
+	height: 80px;
+	background-color: black;
 }
 
-.header .menu a{
+.logo{
+	width: 48px;
+	height: 48px;
+	background: #fff200;
+	color: #0000a0;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 48px;
 	display: block;
-	padding-top: 30px;
-	padding-left: 80px;
+	transition: all 0.3s ease;
+	position: absolute;
+	top: 20%;
+	left: 15%;
+}
+
+.logo:hover{
+	background: #ffffff;
+	border-radius: 20px;
 }
 
 .header nav ul{
@@ -21,17 +36,18 @@
 .header nav ul li{
 	display: inline-block;
 	margin-right: 50px;
+	padding-top: 20px;
 }
 
 .header nav ul li a{
 	text-decoration: none;
-	color: #fff;
+	color: #fff200;
 	font-size: 18px;
+	text-transform: uppercase;
 }
 
 .header nav ul li a:hover {
-	color: #32a1cf;
-	text-decoration: underline ;
-	transition: all 0.7s ease;
+	color: #ffffff;
+	transition: all 0.5s ease;
 }
 

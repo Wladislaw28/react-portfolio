@@ -1,0 +1,16 @@
+.container-fluid{
+	padding: 0;
+}
+
+.home{
+	background: url('../img/back2.jpg') no-repeat center center;
+	text-align:center;
+	min-height: 89vh;
+	width: 100%;
+
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+}
