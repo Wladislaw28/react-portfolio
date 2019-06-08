@@ -9,7 +9,6 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from './layout/home/home';
 import About from './layout/about/about';
 import App_Components from './layout/components_layout/app_components';
-import Home_Comps from "./layout/components_layout/Home_Comps";
 
 ReactDOM.render((
 	<BrowserRouter>
@@ -18,7 +17,6 @@ ReactDOM.render((
 				<Route exact path="/" component={Home} />
 				<Route path="/about" component={About} />
 				<Route path="/components" component={App_Components} />
-
 			</Switch>
 		</App>
 	</BrowserRouter>

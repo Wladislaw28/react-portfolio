@@ -7,7 +7,7 @@ const Navigation_Comps = () => (
 	<div className="navigation_comps">
 		<nav>
 			<ul className="nav_comps">
-				<li><NavLink to="/components/home_components">Home Comp</NavLink></li>
+				<li><NavLink exact to="/components/home_components">Home Comp</NavLink></li>
 				<li><NavLink to="/components/button">Button</NavLink></li>
 				<li><NavLink to="/components/button-group">Button Group</NavLink></li>
 				<li><NavLink to="/components/icon">Icon</NavLink></li>
