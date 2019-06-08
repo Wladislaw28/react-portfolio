@@ -1,0 +1,26 @@
+.footer {
+	min-height: 100px;
+	background-color: #D43728;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 50px;
+	color: #fff;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer_nav{
+	position: absolute;
+	min-height: 100px;
+	background-color: #D43728;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 50px;
+	color: #fff;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
